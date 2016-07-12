@@ -20,7 +20,7 @@ function getPage()
 //==============================================================================
 function showPage()
 {
-    include_once '../LGALmvc/view/view.php';
+    include_once '../lgal/view/view.php';
     showHeader(getPage());
     showHead();
     showNav();

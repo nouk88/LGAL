@@ -2,13 +2,13 @@
 define("IS_LOCAL", ($_SERVER["HTTP_HOST"]=="www.cursist04.nl"));
 if(IS_LOCAL)
 {
-    define("SERVERPATH", '/var/sentora/hostdata/cursist04/public_html/cursist04_nl/LGALmvc/');
+    define("SERVERPATH", '/var/sentora/hostdata/cursist04/public_html/cursist04_nl/lgal/');
     define("CONFIGPATH", SERVERPATH.'config/local_');
 }
  else 
 {
-    define("SERVERPATH", '/var/sentora/hostdata/cursist04/public_html/cursist04_nl/LGALmvc/');
-    define("CONFIGPATH", SERVERPATH.'config/remote_');   
+    define("SERVERPATH", '/var/sentora/hostdata/cursist04/public_html/cursist04_nl/lgal/');
+    define("CONFIGPATH", SERVERPATH.'config/local_');   
 }
 //==============================================================================
 include CONFIGPATH.'settings.php';
