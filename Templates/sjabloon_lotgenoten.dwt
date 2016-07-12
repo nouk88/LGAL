@@ -1,0 +1,109 @@
+ <!DOCTYPE html>
+<html>
+<head>
+		<meta charset="utf-8" content="lotgenotengroep autisme limburg autist asperger pdd-nos klassiek groep"/>
+        <meta name="description" content="Lotgenotengroep Autisme Limburg is een groep voor autisten en mensen met autisme in de vorm van asperger, pdd-nos of klassiek autisme in de buurt van Limburg, Parkstad, Brunssum.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- TemplateBeginEditable name="doctitle" -->
+		<!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js></script>
+		<![endif]-->
+	<title>lotgenotengroep autisme</title>
+		<!-- TemplateEndEditable -->
+		<link rel="stylesheet" href="../css/reset.css" type="text/css"/>
+		<link rel="stylesheet" href="../css/stylesheet.css" type="text/css" />
+		<script src="../library/jquery-1.11.1.js" type="text/javascript"></script>
+		<script src="../javascript/script.js" type="text/javascript"></script>
+		<!-- TemplateBeginEditable name="head" -->
+		<!-- TemplateEndEditable -->
+
+</head>
+<!-- Ontwikkeld door Anouk Classens en Nick Vijgen -->
+<body>
+<div id="maincontainer"> <!-- hoofdbox -->
+<a href="../index.html"><header> <!-- header -->
+	<div id="head_tekst"><h1>Lotgenotengroep Autisme Limburg</h1></div>
+    <div id="logo"><img  src="../images/puzzelstuk_mail_rood.png" alt="logo van de lotgenotengroep" /></div>
+</header> </a>
+
+<div id=subcontainer>
+    
+<div id="nav"> <!-- navigatie --> 
+            <ul id="menu"> <!-- open ul menu --> 
+            <a href="../index.html"><li><img src="../images/puzzelstukje_klein.png" alt="logo van de lotgenotengroep"/>
+            Home</li></a>
+            <a href="#"><li id="lotgenoten"><img src="../images/puzzelstukje_klein.png" alt="logo van de lotgenotengroep">
+            Lotgenotengroep
+            </li></a>
+            <ul>
+				<a href="../historie.html"><li class="subitem"><img src="../images/puzzelstukje_klein.png" alt="logo van de lotgenotengroep"/>
+              Historie</li></a>
+				<a href="../voorstellen.html"><li class="subitem"><img src="../images/puzzelstukje_klein.png" alt="logo van de lotgenotengroep"/>
+              Even voorstellen</li></a>					
+			</ul>
+            <a href="#"><li id="inloop"><img src="../images/puzzelstukje_klein.png" alt="logo van de lotgenotengroep">
+            Inloopavonden</li></a>
+            <ul>
+            	<a href="../wat.html"><li class="subitem2"><img src="../images/puzzelstukje_klein.png" alt="logo van de lotgenotengroep"/>
+           	  Wat</li></a>
+            	<a href="../wanneer.html"><li class="subitem2"><img src="../images/puzzelstukje_klein.png" alt="logo van de lotgenotengroep"/>
+           	  Wanneer</li></a>
+              <a href="../waar.html"><li class="subitem2"><img src="../images/puzzelstukje_klein.png" alt="logo van de lotgenotengroep"/>
+           	  Waar</li></a>
+            </ul>
+            <a href="../activiteiten.html"><li><img src="../images/puzzelstukje_klein.png" alt="logo van de lotgenotengroep"/>
+            Activiteiten</li></a>
+            <a href="../foto.html"><li><img src="../images/puzzelstukje_klein.png" alt="logo van de lotgenotengroep"/>
+            Foto's</li></a>
+            <a href="#"><li id="info"><img src="../images/puzzelstukje_klein.png" alt="logo van de lotgenotengroep"/>
+            Info</li></a>
+            <ul>
+            <a href="../autisme.html"><li class="subitem3"><img src="../images/puzzelstukje_klein.png" alt="logo van de lotgenotengroep"/>
+              Autisme</li></a>
+              <a href="../links.html"><li class="subitem3"><img src="../images/puzzelstukje_klein.png" alt="logo van de lotgenotengroep"/>
+              Links</li></a>
+              <a href="../boeken.html"><li class="subitem3"><img src="../images/puzzelstukje_klein.png" alt="logo van de lotgenotengroep"/>
+              Boeken</li></a>
+              <a href="../films.html"><li class="subitem3"><img src="../images/puzzelstukje_klein.png" alt="logo van de lotgenotengroep"/>
+              Films</li></a>
+            </ul>
+            <a href="../contact.html"><li><img src="../images/puzzelstukje_klein.png" alt="logo van de lotgenotengroep"/>
+            Contact</li></a>
+            </ul> <!-- open ul menu -->
+            </div>
+					
+			<div id="content">
+            <!-- TemplateBeginEditable name="ContentIndex" --><!-- TemplateEndEditable -->
+            </div>
+			
+			<div id="sidebar"> <!--kollom rechts --> 
+				<div id="kalender"><!-- kallender --> <a href="../kalender.html"><div>Klik hier voor onze kalender</div></a>
+                 <a href="../kalender.html"><img src="../images/kalender.jpg" alt=""/></a>
+                 <!--<div>
+				<script type="text/javascript" src="kalprogr.js"></script>
+                <script type="text/javascript" src="kalitems.js"></script>
+                <script type="text/javascript">var cal = new kalender("cal");cal.maakDatumKeuze();</script>
+                <div id="MSIE"><ilayer name="NSALIGN"><layer name="NSLAYER">
+                <script type="text/javascript">cal.MaakKalender();</script>
+                </layer></ilayer></div>
+                </div> --> 
+                </div><!-- einde kallender -->
+				<div id="spreuk"><!-- spreuk --> </div> <!-- einde spreuk -->
+
+			  <div id="opmerking"> <!-- opmerking -->
+                	<ul>
+                		<li><strong>10 nov</strong>: Feestkrans maken met Leo</li>
+                        <li><strong>13 nov</strong>: Film met thema ASS </li>
+                        <li><strong>24 nov</strong>: Evaluatie 2015 en planning 2016 </li>
+                		<li><strong>08 dec</strong>: Knutselavond met Katja</li>
+                		<li><strong>20 dec</strong>: Bowlen </li>
+                        <li><strong>22 dec</strong>: ASS en feesten </li>                            
+                	</ul>
+                </div> <!-- einde opmerking -->
+   	  </div> <!--einde kollom rechts -->
+		</div><!--einde subcontainer-->
+		<div id="footer"> <!-- footer -->
+        </div></div> <!--einde maincontainer-->
+</body>
+
+</html> 
