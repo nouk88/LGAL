@@ -192,7 +192,12 @@ body{
 #table_activiteiten{
 	width:40vw;
 	}
-
+/*foto carousel*/        
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+}
 /*kalender*/
 #kalender_wrapper{
 	padding-left:0;
@@ -291,7 +296,7 @@ body{
 #footer{
 	position:absolute;
 	float:left;
-	width: 100vw;
+	width: 100%;
 	height: 8vh;
 	bottom:0%;
 	background-image: url(../images/footer.jpg);
