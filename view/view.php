@@ -22,12 +22,12 @@ function showHeader($title)
             <!-- javascript -->
             <script src="library/jquery-1.11.1.js" type="text/javascript"></script>
             <script src="js/script.js" type="text/javascript"></script>
+            <script src="js/bootstrap.min.js" type="text/javascript"></script>
             <!-- Bootstrap -->
             <link href="css/reset.css" rel="stylesheet">
             <link href="css/stylesheet.css" rel="stylesheet">
             <link href="css/bootstrap.css" rel="stylesheet">
             <link href="css/bootstrap-theme.min.css" rel="stylesheet">
-            <link href="css/js/bootstrap.min.js" rel="stylesheet">
             <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
             <!-- WARNING: Respond.js doesn\'t work if you view the page via file:// -->
             <!--[if lt IE 9]>
