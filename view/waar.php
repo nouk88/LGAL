@@ -1,6 +1,6 @@
 <?php
 
-function showHome()
+function showWaar()
 {
     echo'
         <h2>Waar</h2>

@@ -171,7 +171,7 @@ function showSideContainer()
 {
     echo '
         <div id="sidebar" class="hidden-xs col-sm-3 col-md-3 col-lg-3"> <!--sidebar --> 
-                <div id="kalender"><!-- kallender --> <a href="?page=kalender"><div id=tekst_kalender>Klik hier voor onze kalender</div></a>
+                <div id="kalender"><!-- kallender --> <a href="?page=kalender"><div id=link_kalender>Klik hier voor onze kalender</div></a>
                     <a href="?page=kalender"><img src="images/kalender.jpg" alt=""/></a>
                 </div><!-- einde kallender -->
                 <div id="spreuk"><!-- spreuk --> </div> <!-- einde spreuk -->

@@ -134,6 +134,9 @@ body{
 	padding-left:1vw;
 	padding-right:1vw;
 }
+#content table{
+    margin-left:1vw;
+}
 #content h1{
 	font-size: 4vw;
 	margin-top: 2vh;
@@ -187,7 +190,7 @@ body{
 
 #table_wanneer{
 	width:40vw;
-	}
+}
 
 #table_activiteiten{
 	width:40vw;
@@ -237,20 +240,15 @@ body{
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 2.5vh;
-	color: #000000;
-        margin-right: 2vw;
-        
+	color: #000000;        
 }
 #kalender a img{
 	width:15vw;
 	height:17vh;
 }
-#tekst_kalender{
-    padding-right: 0.5vw;
+#link_kalender{
+    //padding-right: 0.5vw;
 }
-
-	
-	
 
 #spreuk{
 	border-style: solid;
