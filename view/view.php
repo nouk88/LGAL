@@ -81,7 +81,8 @@ function showNav()
                             </ul>
                         <a href="?page=contact"><li><img src="images/puzzelstukje_klein.png" alt="logo van de lotgenotengroep"/>Contact</li></a>
                     </ul> <!-- open ul menu -->
-            </div><!-- sluit navigatie --> ';    
+            </div><!-- sluit navigatie --> '; 
+    
 }
 //==============================================================================
 function showContent($page)

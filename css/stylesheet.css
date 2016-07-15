@@ -122,6 +122,10 @@ body{
 	padding-left:2.5vw;
 }
 
+.nav_hidden{
+    display: none;
+}
+
 /* hoofdbox */ 
 #content{
 	float: left;

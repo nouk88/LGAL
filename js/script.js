@@ -5,8 +5,14 @@ var clicked3 = 0;
 var delay = 200;
 var images = ['wpid-Bomen-bos.jpg','beperkt.png','autism.jpg','autisme.jpg'];
 $(document).ready(function(){
-$('<img width="75%" height="100%" alt="willekeurige spreuk" src="images/' + images[Math.floor(Math.random() * images.length)] + '">').appendTo('#maincontainer #subcontainer #sidebar #spreuk');
-	$(".subitem").hide();
+    $('<img width="75%" height="100%" alt="willekeurige spreuk" src="images/' + images[Math.floor(Math.random() * images.length)] + '">').appendTo('#maincontainer #subcontainer #sidebar #spreuk');
+	
+    if(window.innerWidth<=767){
+        $("#nav").addClass("nav_hidden");
+        $("#nav_mobile").removeClass("nav_hidden");
+    }
+    
+    $(".subitem").hide();
 	$(".subitem2").hide();
 	$(".subitem3").hide();
 	$("div#nav ul a li").hover(function(){
