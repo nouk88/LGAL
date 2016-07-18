@@ -82,6 +82,19 @@ function getDatumsDateNowLimit($datum,$limit)
     return getArrays($query);
 }
 //==============================================================================
+function getFotosByCategorieId($Categorie_id)
+{
+    $query="SELECT
+            id,
+            naam,
+            alt_tekst,
+            link
+            FROM
+            foto
+            WHERE
+            categorie_id=".$Categorie_id;
+    return getArrays($query);
+  }
 //==============================================================================
 //==============================================================================
 //==============================================================================
