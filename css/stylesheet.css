@@ -91,7 +91,7 @@ body{
 	font-size:100%;
 }
 #nav #menu a li{
-	height:4.565vh;
+	height:4.4vh;
 	border-style:solid;
 	border-top-width:0.5vh;
 	border-bottom-width:0.5vh;
@@ -112,7 +112,7 @@ body{
 }
 #nav #menu a li img{
 	width:2vw;
-	height:4.565vh;
+	height:4.4vh;
 	vertical-align:middle;
 	padding-left:1.5vw;
         padding-right:0.5vw;
@@ -122,15 +122,21 @@ body{
 	padding-left:2.5vw;
 }
 
-.nav_hidden{
+#nav_mobile{
     display: none;
 }
-
-/* hoofdbox */ 
+#row_mobile{
+    display: none;
+}
+.navbar-toggle {
+  float: left;
+  margin-top:0;
+}
+/* hoofdbox */
 #content{
 	float: left;
 	//width: 58vw;
-	height: 80vh;
+	height: 79vh;
 	overflow:auto;
 	
 }
@@ -175,6 +181,10 @@ body{
 	margin-top: 0vh;
 	}
 /* voorstellen */
+figure{
+    padding-left: 1vw;
+}
+
 
 .commissie{
 	padding-right:1vw;
@@ -307,3 +317,26 @@ body{
 }
 
 
+@media screen and (max-width:768px) {
+    #content{
+        height: 70vh;
+        width: 100vw;
+    }
+    #nav{
+        display: none;
+    }
+    #nav_mobile{
+        display: initial;
+    }
+    #row_mobile{
+    display: initial;
+}
+    #table_wanneer{
+	width:100vw;
+    }
+
+    #table_activiteiten{
+	width:100vw;
+    }
+    
+}

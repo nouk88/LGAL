@@ -56,38 +56,82 @@ function showNav()
     echo'
         <div id=subcontainer class="row">
             <div id="nav" class="col-xs-4 col-sm-3 col-md-3 col-lg-3"> <!-- navigatie --> 
-                    <ul id="menu"> <!-- open ul menu --> 
-                        <a href="?page=home"><li><img src="images/puzzelstukje_klein.png" alt="logo van de lotgenotengroep"/>Home</li></a>
-                        <a href="#"><li id="lotgenoten"><img src="images/puzzelstukje_klein.png" alt="logo van de lotgenotengroep">Lotgenotengroep</li></a>
-                            <ul>
-                                <a href="?page=historie"><li class="subitem"><img src="images/puzzelstukje_klein.png" alt="logo van de lotgenotengroep"/>Historie</li></a>
-                                <a href="?page=voorstellen"><li class="subitem"><img src="images/puzzelstukje_klein.png" alt="logo van de lotgenotengroep"/>Even voorstellen</li></a>
-                                <a href="?page=stichting"><li class="subitem"><img src="images/puzzelstukje_klein.png" alt="logo van de lotgenotengroep"/>Stichting</li></a>	
+                <ul id="menu"> <!-- open ul menu --> 
+                    <a href="?page=home"><li><img src="images/puzzelstukje_klein.png" alt="logo van de lotgenotengroep"/>Home</li></a>
+                    <a href="#"><li id="lotgenoten"><img src="images/puzzelstukje_klein.png" alt="logo van de lotgenotengroep">Lotgenotengroep</li></a>
+                        <ul>
+                            <a href="?page=historie"><li class="subitem"><img src="images/puzzelstukje_klein.png" alt="logo van de lotgenotengroep"/>Historie</li></a>
+                            <a href="?page=voorstellen"><li class="subitem"><img src="images/puzzelstukje_klein.png" alt="logo van de lotgenotengroep"/>Even voorstellen</li></a>
+                            <a href="?page=stichting"><li class="subitem"><img src="images/puzzelstukje_klein.png" alt="logo van de lotgenotengroep"/>Stichting</li></a>	
+                        </ul>
+                    <a href="#"><li id="inloop"><img src="images/puzzelstukje_klein.png" alt="logo van de lotgenotengroep">Inloopavonden</li></a>
+                        <ul>
+                            <a href="?page=wat"><li class="subitem2"><img src="images/puzzelstukje_klein.png" alt="logo van de lotgenotengroep"/>Wat</li></a>
+                            <a href="?page=wanneer"><li class="subitem2"><img src="images/puzzelstukje_klein.png" alt="logo van de lotgenotengroep"/>Wanneer</li></a>
+                            <a href="?page=waar"><li class="subitem2"><img src="images/puzzelstukje_klein.png" alt="logo van de lotgenotengroep"/>Waar</li></a>
+                        </ul>
+                    <a href="?page=activiteiten"><li><img src="images/puzzelstukje_klein.png" alt="logo van de lotgenotengroep"/>Activiteiten</li></a>
+                    <a href="?page=foto"><li><img src="images/puzzelstukje_klein.png" alt="logo van de lotgenotengroep"/>Foto\'s</li></a>
+                    <a href="#"><li id="info"><img src="images/puzzelstukje_klein.png" alt="logo van de lotgenotengroep"/>Info</li></a>
+                        <ul>
+                            <a href="?page=autisme"><li class="subitem3"><img src="images/puzzelstukje_klein.png" alt="logo van de lotgenotengroep"/>Autisme</li></a>
+                            <a href="?page=links"><li class="subitem3"><img src="images/puzzelstukje_klein.png" alt="logo van de lotgenotengroep"/>Links</li></a>
+                            <a href="?page=boeken"><li class="subitem3"><img src="images/puzzelstukje_klein.png" alt="logo van de lotgenotengroep"/>Boeken</li></a>
+                            <a href="?page=films"><li class="subitem3"><img src="images/puzzelstukje_klein.png" alt="logo van de lotgenotengroep"/>Films</li></a>
+                        </ul>
+                    <a href="?page=contact"><li><img src="images/puzzelstukje_klein.png" alt="logo van de lotgenotengroep"/>Contact</li></a>
+                </ul> <!-- open ul menu -->
+            </div>  <!-- sluit navigatie -->
+            
+            <div id="row_mobile" class="row hidden-lg hidden-md">
+                <div id="nav_mobile" class="navbar navbar-inverse col-xs-12 col-sm-12"> <!-- navigatie mobile --> 
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="pull-left navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="collapse navbar-collapse" id="myNavbar">
+                            <ul class="nav navbar-nav">
+                                <li><a href="?page=home">Home</a></li>
+                                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Lotgenotengroep<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="?page=historie">Historie</a></li>
+                                        <li><a href="?page=voorstellen">Even voorstellen</a></li>
+                                        <li><a href="?page=stichting">Stichting</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Inloopavonden<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="?page=wat">Wat</a></li>
+                                        <li><a href="?page=wanneer">Wanneer</a></li>
+                                        <li><a href="?page=waar">Waar</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="?page=activiteiten">Activiteiten</a></li>
+                                <li><a href="?page=foto">foto\'s</a></li>
+                                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Info<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="?page=autisme">Autisme</a></li>
+                                        <li><a href="?page=links">Links</a></li>
+                                        <li><a href="?page=boeken">Boeken</a></li>
+                                        <li><a href="?page=films">Films</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="?page=contact">contact</a></li>
                             </ul>
-                        <a href="#"><li id="inloop"><img src="images/puzzelstukje_klein.png" alt="logo van de lotgenotengroep">Inloopavonden</li></a>
-                            <ul>
-                                <a href="?page=wat"><li class="subitem2"><img src="images/puzzelstukje_klein.png" alt="logo van de lotgenotengroep"/>Wat</li></a>
-                                <a href="?page=wanneer"><li class="subitem2"><img src="images/puzzelstukje_klein.png" alt="logo van de lotgenotengroep"/>Wanneer</li></a>
-                                <a href="?page=waar"><li class="subitem2"><img src="images/puzzelstukje_klein.png" alt="logo van de lotgenotengroep"/>Waar</li></a>
-                            </ul>
-                        <a href="?page=activiteiten"><li><img src="images/puzzelstukje_klein.png" alt="logo van de lotgenotengroep"/>Activiteiten</li></a>
-                        <a href="?page=foto"><li><img src="images/puzzelstukje_klein.png" alt="logo van de lotgenotengroep"/>Foto\'s</li></a>
-                        <a href="#"><li id="info"><img src="images/puzzelstukje_klein.png" alt="logo van de lotgenotengroep"/>Info</li></a>
-                            <ul>
-                                <a href="?page=autisme"><li class="subitem3"><img src="images/puzzelstukje_klein.png" alt="logo van de lotgenotengroep"/>Autisme</li></a>
-                                <a href="?page=links"><li class="subitem3"><img src="images/puzzelstukje_klein.png" alt="logo van de lotgenotengroep"/>Links</li></a>
-                                <a href="?page=boeken"><li class="subitem3"><img src="images/puzzelstukje_klein.png" alt="logo van de lotgenotengroep"/>Boeken</li></a>
-                                <a href="?page=films"><li class="subitem3"><img src="images/puzzelstukje_klein.png" alt="logo van de lotgenotengroep"/>Films</li></a>
-                            </ul>
-                        <a href="?page=contact"><li><img src="images/puzzelstukje_klein.png" alt="logo van de lotgenotengroep"/>Contact</li></a>
-                    </ul> <!-- open ul menu -->
-            </div><!-- sluit navigatie --> '; 
+                        </div>
+                    </div>
+                </div><!-- sluit navigatie mobile --> 
+            </div> <!-- sluit row mobile --> ';
     
 }
 //==============================================================================
 function showContent($page)
 {
-    echo'<div id="content" class="col-xs-8 col-sm-6 col-md-6 col-lg-6">';
+    echo'<div id="content" class="col-xs-12 col-sm-6 col-md-6 col-lg-6">';
     switch($page)
     {
         case "historie":
@@ -171,7 +215,7 @@ function showContent($page)
 function showSideContainer()
 {
     echo '
-        <div id="sidebar" class="hidden-xs col-sm-3 col-md-3 col-lg-3"> <!--sidebar --> 
+            <div id="sidebar" class="hidden-xs col-sm-3 col-md-3 col-lg-3"> <!--sidebar --> 
                 <div id="kalender"><!-- kallender --> <a href="?page=kalender"><div id=link_kalender>Klik hier voor onze kalender</div></a>
                     <a href="?page=kalender"><img src="images/kalender.jpg" alt=""/></a>
                 </div><!-- einde kallender -->
