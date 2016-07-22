@@ -81,6 +81,19 @@ function getDatumsDateNowLimit($datum,$limit)
             .$limit;
     return getArrays($query);
 }
+
+//==============================================================================
+function getFotoCategorie()
+{
+    $query="SELECT
+            id,
+            naam,
+            datum,
+            lokatie
+            FROM
+            foto_categorie";
+     return getArrays($query);		
+}
 //==============================================================================
 function getFotosByCategorieId($Categorie_id)
 {
@@ -96,6 +109,35 @@ function getFotosByCategorieId($Categorie_id)
     return getArrays($query);
   }
 //==============================================================================
+function getFotoCategorieByKolomNaamAndNaam($kolom_naam, $naam)
+{
+    $query="SELECT
+            id,
+            naam,
+            datum,
+            lokatie
+            FROM
+            foto_categorie
+            WHERE "
+            .$kolom_naam."=".$naam;
+    return getArray($query);
+}
+//==============================================================================
+function getFotoCategorieByDatumLimit($limit)
+{
+    $query="SELECT
+            id,
+            naam,
+            datum,
+            lokatie
+            FROM
+            foto_categorie
+            ORDER BY
+            datum ASC
+            LIMIT "
+            .$limit;
+    return getArrays($query);
+}
 //==============================================================================
 //==============================================================================
 //==============================================================================

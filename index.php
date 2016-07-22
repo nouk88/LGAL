@@ -7,8 +7,8 @@ if(IS_LOCAL)
 }
  else 
 {
-    define("SERVERPATH", '/var/sentora/hostdata/cursist04/public_html/cursist04_nl/lgal/');
-    define("CONFIGPATH", SERVERPATH.'config/local_');   
+    define("SERVERPATH", 'C:\xampp\htdocs\lgal\LGAL\/');
+    define("CONFIGPATH", SERVERPATH.'config/remote_');   
 }
 //==============================================================================
 include CONFIGPATH.'settings.php';
