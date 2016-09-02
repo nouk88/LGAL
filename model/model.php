@@ -56,8 +56,8 @@ function getDatumsByTypeDateNow($type, $datum)
             WHERE
             type=".$type."
             AND    
-            datum>=".$datum.
-            " ORDER BY
+            datum>='".$datum.
+            "' ORDER BY
             datum ASC";
     return getArrays($query);
 }
@@ -74,8 +74,8 @@ function getDatumsDateNowLimit($datum,$limit)
             FROM 
             datums
             WHERE    
-            datum>=".$datum.
-            " ORDER BY
+            datum>='".$datum."
+            ' ORDER BY
             datum ASC
             LIMIT "
             .$limit;
@@ -101,7 +101,8 @@ function getFotosByCategorieId($Categorie_id)
             id,
             naam,
             alt_tekst,
-            link
+            link,
+            type_foto
             FROM
             foto
             WHERE

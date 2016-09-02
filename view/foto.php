@@ -24,14 +24,14 @@ function showFoto()
 			{
                             if ($key==0)
                             {
-                                echo '<div class="item active">
-                                <img src="' .$foto["link"]. '" alt="' .$foto["link"]. '"  height="10" width="10" >
+                                echo '<div class="item active '.$foto["type_foto"].'">
+                                <img src="' .$foto["link"]. '" alt="' .$foto["link"]. '"  >
                                     </div>';
                             }
                             else
                             {
-                            echo '<div class="item">
-                                <img src="' .$foto["link"]. '" alt="' .$foto["link"]. '" height="200" width="auto">
+                            echo '<div class="item '.$foto["type_foto"].'">
+                                <img src="' .$foto["link"]. '" alt="' .$foto["link"]. '" >
                                 </div>';		
                             }	
 			}
@@ -45,6 +45,6 @@ function showFoto()
 					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 					<span class="sr-only">Next</span>
 				</a>
-			</div>';	
+                            </div>';	
 	 }
 }

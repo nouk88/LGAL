@@ -17,6 +17,11 @@ body{
 	height: 100%;
 	
 }
+
+address{
+    padding-left:1vw;
+    padding-right:1vw;
+}
 #maincontainer {
 	background-size:auto;
 	font-family:"Myriad Pro", Arial, sans-serif;
@@ -176,6 +181,11 @@ body{
 	padding-right:1vw;
 }
 
+.omloop_tekst{
+    float: left;
+    margin-left:-1vw;
+}
+
 /* film */
 #film p{
 	margin-top: 0vh;
@@ -183,6 +193,7 @@ body{
 /* voorstellen */
 figure{
     padding-left: 1vw;
+    margin-bottom: 5vw;
 }
 
 
@@ -198,8 +209,15 @@ figure{
 	}
 #lange_tekst_1{
 	overflow:scroll;}
-.boeken img{
+#content .boeken img{
 	float:left;
+        
+}
+.img_boeken{
+    box-shadow: 10px 10px 5px #aaaaaa;
+    padding-left:-1vw !important;
+    padding-right:-1vw !important;
+    
 }
 
 #table_wanneer{
@@ -209,12 +227,7 @@ figure{
 #table_activiteiten{
 	width:40vw;
 	}
-/*foto carousel*/        
-.carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-      width: 70%;
-      margin: auto;
-}
+
 /*kalender*/
 #kalender_wrapper{
 	padding-left:0;
@@ -317,7 +330,7 @@ figure{
 }
 
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
     #content{
         height: 70vh;
         width: 100vw;
@@ -340,3 +353,17 @@ figure{
     }
     
 }
+.landscape {
+    display: block;
+    height: auto;
+    max-width: 70%;
+    margin: auto;
+    padding-right: 1.5vw;
+}
+
+/*bootstrap aanpassingen */
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    max-width: 100%;
+    margin: auto;
+}
+

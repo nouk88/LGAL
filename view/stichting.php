@@ -8,11 +8,11 @@ function showStichting()
         
             <p> Het bestuur bestaat uit:</p>
             <ul>
-                <li>John van Es (voorzitter) </li>
-                <li>Monique Aspers (secretaris) </li>
-                <li>Ronald den Otter (penningmeester) </li>
+                <li><strong>John van Es </strong>(voorzitter) </li>
+                <li><strong>Monique Aspers </strong> (secretaris) </li>
+                <li><strong>Ronald den Otter </strong>(penningmeester) </li>
             </ul>
-            <img src="../images/bestuur/bestuur.jpg" alt="Bestuur" width="500" height="306">   
+            <img  src="images/bestuur/bestuur.jpg" alt="Bestuur" width="500" height="306" style="margin-bottom:2vh;">   
             <p>Voor de groep verandert er niets. De 3 commissies blijven gewoon bestaan en zullen blijven zorgen voor leuke activiteiten en leerzame maar zeker ook gezellige inloopavonden.</p>   
     ';
 }

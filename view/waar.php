@@ -5,8 +5,8 @@ function showWaar()
     echo'
         <h2>Waar</h2>
             <h3>Adres</h3>
-            <p>Henri Dunantstraat 519, 6441 XR Brunssum<br>
-                Ouderensoos, onderin de flat Het Distenveld. 
+            <address>Henri Dunantstraat 519, 6441 XR Brunssum</address>
+            <p>    Ouderensoos, onderin de flat Het Distenveld. 
             </p>
             <p>De parkeerplaats tegenover de ingang mag niet gebruikt worden, deze is alleen bestemd voor de bewoners van de flat.</p>
             <img src="images/afbeelding_soos.jpg" width="219" height="164" alt="afbeelding ontmoetingsgebouw"/>

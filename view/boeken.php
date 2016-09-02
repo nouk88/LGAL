@@ -15,7 +15,7 @@ function showBoeken()
 			
         <h3>Een vreemde wereld - Martine F. Delfos</h3> 
             <div class="boek_wrapper" id="lange_tekst_1">
-            <div class="boeken"><img src="images/een_vreemde_wereld.jpg" width="113" height="181" alt="afbeelding van boek"/></div>
+            <div class="boeken"><img class="img_boeken" src="images/een_vreemde_wereld.jpg" width="113" height="181" alt="afbeelding van boek"/></div>
             <div class="boek_tekst"><p>In Een vreemde wereld beschrijft Martine F. Delfos op heldere en inzichtelijke wijze wat autisme behelst. Extra aandacht besteedt zij aan kinderen en volwassen met een autistische stoornis die een normale of boven gemiddelde intelligentie hebben: het syndroom van Asperger en PDD-NOS. Martine F. Delfos schetst een omvattend beeld waarin alle aspecten - en theorieën - van autisme in één verklarend model ondergebracht zijn, van het \'niet begrijpen van grapjes\', gebrek aan tijdsbesef, obsessies tot en met de \'behoefte alles hetzelfde te houden en geen veranderingen te accepteren\'. Zij introduceert als basisbegrip het socioschema. Dit socioschema behelst de bewuste en onbewuste kennis van zichzelf, hoe men in de wereld staat en hoe men in relatie tot anderen staat.
 Een vreemde wereld biedt inzicht in autisme en handvatten hoe de verschillende aspecten van autisme behandeld kunnen worden om de kwaliteit van leven voor mensen met een autistische stoornis te verbeteren.</p></div></div> 
             
