@@ -5,12 +5,12 @@ function showBoeken()
     echo'
         <h3>Waarom ik soms op en neer spring - Naoki Higashida</h3>
             <div class="boek_wrapper">
-            <div class="boeken"><img src="images/waarom_ik_soms_op_en_neer_spring.jpg" width="113" height="181" alt="afbeelding van boek"/></div>
+            <div class="boeken"><img class="img_boeken" src="images/waarom_ik_soms_op_en_neer_spring.jpg" width="113" height="181" alt="afbeelding van boek"/></div>
             <div class="boek_tekst"><p>Het is vrij moeilijk om het gedrag en de belevingswereld van een autist te begrijpen. In \'Waarom ik soms op en neer spring\' geeft Naoki Higashida antwoord op de vragen die iedereen zich altijd bij autisme stelt. Naoki was dertien toen hij dit boek schreef. Het is een verhelderend en inspirerend boek voor iedereen die in het begrijpen van een ander is geïnteresseerd, ouders, familie, verzorgers en leerkrachten van autistische kinderen. Naoki bewijst dat ook mensen met autisme over fantasie, humor en empathie beschikken en maakt ons op een indringende en ontroerende manier duidelijk hoe belangrijk geduld en begrip zijn. </p></div>
             </div>
         <h3>Ik ben niet vreemd, ik heb autisme - Ellen van Gelder</h3> 
             <div class="boek_wrapper">
-            <div class="boeken"><img src="images/ik_ben_niet_vreemd_ik_heb_autisme.jpg" width="113" height="181" alt="afbeelding van boek"/></div>
+            <div class="boeken"><img class="img_boeken" src="images/ik_ben_niet_vreemd_ik_heb_autisme.jpg" width="113" height="181" alt="afbeelding van boek"/></div>
             <div class="boek_tekst"><p>In Ik ben niet vreemd, ik heb Autisme geeft auteur Ellen van Gelder in 26 hoofdstukken van A t/m Z op een heldere manier een inkijkje in het leven met een autismespectrumstoornis (ASS). Naast haar eigen verhaal laat ze ook \'mede-auti\'s\' vertellen over hun dagelijkse ervaringen met autisme. Een inspirerend boek voor mensen met een autistische stoornis die nog op zoek zijn naar meer balans in hun leven. Maar ook partners, hulpverleners, familieleden en anderen die zich met iemand met een autismepectrumstoornis willen verbinden, krijgen een mooie duidelijke inkijk in het anders zijn wat ASS heet. </p></div></div> 
 			
         <h3>Een vreemde wereld - Martine F. Delfos</h3> 

@@ -12,7 +12,7 @@ function showStichting()
                 <li><strong>Monique Aspers </strong> (secretaris) </li>
                 <li><strong>Ronald den Otter </strong>(penningmeester) </li>
             </ul>
-            <img  src="images/bestuur/bestuur.jpg" alt="Bestuur" width="500" height="306" style="margin-bottom:2vh;">   
+            <img class="img_stichting" src="images/bestuur/bestuur.jpg" alt="Bestuur" width="500" height="306" style="margin-bottom:2vh;">   
             <p>Voor de groep verandert er niets. De 3 commissies blijven gewoon bestaan en zullen blijven zorgen voor leuke activiteiten en leerzame maar zeker ook gezellige inloopavonden.</p>   
     ';
 }

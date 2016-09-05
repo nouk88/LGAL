@@ -168,9 +168,17 @@ address{
 	margin-bottom:0vh;
 	}
 
-#content img{
+.img{
 	padding-left:1vw;
 	padding-right:1vw;
+}
+.img_stichting{
+    display: block;
+    height: auto;
+    max-width: 70%;
+    padding-left:1vw;
+    padding-right:1vw;
+    
 }
 #content figure img{
 	padding-left:0vw;
@@ -184,6 +192,8 @@ address{
 .omloop_tekst{
     float: left;
     margin-left:-1vw;
+    padding-left:1vw;
+    padding-right:1vw;
 }
 
 /* film */
@@ -215,8 +225,7 @@ figure{
 }
 .img_boeken{
     box-shadow: 10px 10px 5px #aaaaaa;
-    padding-left:-1vw !important;
-    padding-right:-1vw !important;
+    margin: 1vh 1.5vw 1vh 1vw;
     
 }
 
@@ -366,4 +375,12 @@ figure{
     max-width: 100%;
     margin: auto;
 }
+.carousel-control.left {
+    background-image: linear-gradient(to right, rgba(0, 0, 100, 0.3) 0%, rgba(0, 0, 100, 0) 100%);
+    background-repeat: repeat-x;
+}
 
+.carousel-control.right {
+background-image: linear-gradient(to left, rgba(0, 0, 100, 0.3) 0%, rgba(0, 0, 100, 0) 100%);
+background-repeat: repeat-x;
+}
