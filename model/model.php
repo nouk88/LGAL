@@ -6,10 +6,13 @@ function getDatums()
 {
     $query="SELECT
             id,
-            datum, 
+            datum,
+            naam_dag,
             naam, 
             omschrijving,
-            tijd, 
+            tijd,
+            text_kleur,
+            achtergrond_kleur,
             type
             FROM 
             datums
@@ -33,6 +36,20 @@ function getDatumsByType($type)
             " ORDER BY
             datum ASC";
     return getArrays($query);
+}
+//==============================================================================
+function getDateExtract($id)
+{
+    $query="SELECT EXTRACT(YEAR FROM datum) 
+            AS jaar,
+            EXTRACT(MONTH FROM datum) 
+            AS maand,
+            EXTRACT(DAY FROM datum) 
+            AS dag
+            FROM datums
+            WHERE id=".$id;
+    return getArray($query);
+    
 }
 //==============================================================================
 function getDateAmsterdam()
@@ -140,6 +157,19 @@ function getFotoCategorieByDatumLimit($limit)
     return getArrays($query);
 }
 //==============================================================================
+function getKalenderInhoud()
+{
+    $datums=getDatums();
+    foreach($datums as $datum)
+    {
+        $date= getDateExtract($datum["id"]);
+        $maand= $date["maand"];        
+        $dag= $date["dag"]; 
+        $jaar= $date["jaar"];
+
+      echo'jsGebeurtenis('.$maand.','.$dag.','.$jaar.','.$datum["naam_dag"].','.'<p class="white-space">'.$datum["tijd"].' '.$datum["naam"].'</p>'.','.$datum["text_kleur"].','.$datum["achtergrond_kleur"].');';
+    }
+}
 //==============================================================================
 //==============================================================================
 //==============================================================================
