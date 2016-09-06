@@ -20,7 +20,7 @@ function showHeader($title)
             <script src="//html5shiv.googlecode.com/svn/trunk/html5.js></script>
             <![endif]-->
             <!-- javascript -->
-            <script src="library/jquery-1.11.1.js" type="text/javascript"></script>
+            <script src="js/jquery-1.11.1.js" type="text/javascript"></script>
             <script src="js/script.js" type="text/javascript"></script>
             <script src="js/bootstrap.min.js" type="text/javascript"></script>
             <!-- Bootstrap -->
