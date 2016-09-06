@@ -2,129 +2,121 @@
 /* CSS Document */
 
 /* Algemeen */
-
 h1{
-	font-size: 40px;
+    font-size: 40px;
 }
-
-
 html{
-	width:100%;
-	height:100%;
+    width:100%;
+    height:100%;
 }
 body{
-	width: 100%;
-	height: 100%;
-	
+    width: 100%;
+    height: 100%;	
 }
-
 address{
     padding-left:1vw;
     padding-right:1vw;
 }
+
 #maincontainer {
-	background-size:auto;
-	font-family:"Myriad Pro", Arial, sans-serif;
-	width:100%;
-	height:100%;
-	background-image:url(../images/achtergrond1.jpg);
-	background-repeat:repeat-x;
+    background-size:auto;
+    font-family:"Myriad Pro", Arial, sans-serif;
+    width:100%;
+    height:100%;
+    background-image:url(../images/achtergrond1.jpg);
+    background-repeat:repeat-x;
 }
 
 /* Header */
 #header{
-	float: left;
-	width: 100%;
-	height: 10vh;
-	border-bottom-width:0.5vh;
-	border-bottom-color:#000000;
-	border-bottom-style:solid;
-	text-decoration:none;
-	background-color:#2d27a5/*#3748ca*/;
+    float: left;
+    width: 100%;
+    height: 10vh;
+    border-bottom-width:0.5vh;
+    border-bottom-color:#000000;
+    border-bottom-style:solid;
+    text-decoration:none;
+    background-color:#2d27a5/*#3748ca*/;
 }
-
 #head_tekst {
-	float:left;
-	height:6vh;
-	padding-left:5vh;
-	text-decoration:none;
-	color:#dddddd;
+    float:left;
+    height:6vh;
+    padding-left:5vh;
+    text-decoration:none;
+    color:#dddddd;
 }
-
 #head_tekst h1{
-	text-decoration: none;
-	text-shadow: 5px 5px 5px #0000aa;
-	margin-top: 2vh;
-	margin-bottom:0.5vh;
-	font-size: 4vmin;
-	font-family:"Myriad Pro", Arial, sans-serif;
+    text-decoration: none;
+    text-shadow: 5px 5px 5px #0000aa;
+    margin-top: 2vh;
+    margin-bottom:0.5vh;
+    font-size: 4vmin;
+    font-family:"Myriad Pro", Arial, sans-serif;
 }
 
 #logo{
-	float:right;
-	height:9vh;
-	margin-top: 0.5vh;
-	margin-bottom:0.5vh;
-	margin-right: 5vw;
+    float:right;
+    height:9vh;
+    margin-top: 0.5vh;
+    margin-bottom:0.5vh;
+    margin-right: 5vw;
 }
-
 #logo img{
-	height:9vh;
+    height:9vh;
 }
 
 .subcontainer{
-	float: left;
-	width: 100%;
-	height: 80vh;
+    float: left;
+    width: 100%;
+    height: 80vh;
 }
 
 /* navigatie */ 
 #nav{
-	//width: 20vw;
-	height: 80vh;
-	float: left;
+    //width: 20vw;
+    height: 80vh;
+    float: left;
 }
 #nav #menu{
-	//width:20vw;
-	height:80vh;
+    //width:20vw;
+    height:80vh;
 }
 #nav #menu a{
-	text-decoration:none;
-	text-align:center;
-	vertical-align:middle;
-	color:#FFFFFF;
-	font-size:100%;
+    text-decoration:none;
+    text-align:center;
+    vertical-align:middle;
+    color:#FFFFFF;
+    font-size:100%;
 }
 #nav #menu a li{
-	height:4.4vh;
-	border-style:solid;
-	border-top-width:0.5vh;
-	border-bottom-width:0.5vh;
-	border-left-width:0vw;
-	border-right-width:0.375vw;
-	border-color:#000000;
-	border-top:none;
-	background-color:#06F;
-	text-align:left;
-	color:#FFFFFF;
-	font-size:2vmin;
+    height:4.4vh;
+    border-style:solid;
+    border-top-width:0.5vh;
+    border-bottom-width:0.5vh;
+    border-left-width:0vw;
+    border-right-width:0.375vw;
+    border-color:#000000;
+    border-top:none;
+    background-color:#06F;
+    text-align:left;
+    color:#FFFFFF;
+    font-size:2vmin;
 }
-
 #nav #menu ul a li {
-	font-size:2vmin;
-	vertical-align:middle;
-	background-color:#3459CF;
+    font-size:2vmin;
+    vertical-align:middle;
+    background-color:#3459CF;
 }
 #nav #menu a li img{
-	width:2vw;
-	height:4.4vh;
-	vertical-align:middle;
-	padding-left:1.5vw;
-        padding-right:0.5vw;
+    width:2vw;
+    height:4.4vh;
+    vertical-align:middle;
+    padding-left:1.5vw;
+    padding-right:0.5vw;
 }
 #nav #menu ul a li img{
-	vertical-align:middle;
-	padding-left:2.5vw;
+    vertical-align:middle;
+    padding-left:2.5vw;
 }
 
 #nav_mobile{
@@ -134,59 +126,58 @@ address{
     display: none;
 }
 .navbar-toggle {
-  float: left;
-  margin-top:0;
+    float: left;
+    margin-top:0;
 }
 /* hoofdbox */
 #content{
-	float: left;
-	//width: 58vw;
-	height: 79vh;
-	overflow:auto;
+    float: left;
+    //width: 58vw;
+    height: 79vh;
+    overflow:auto;
 	
 }
 #content p{
-	padding-left:1vw;
-	padding-right:1vw;
+    padding-left:1vw;
+    padding-right:1vw;
 }
 #content table{
     margin-left:1vw;
 }
 #content h1{
-	font-size: 4vw;
-	margin-top: 2vh;
-	padding-left:1vw;
-	padding-right:1vw;
+    font-size: 4vw;
+    margin-top: 2vh;
+    padding-left:1vw;
+    padding-right:1vw;
 }
 #content h2, h3, h4, h5, h6, table, iframe{
-	padding-left:1vw;
-	padding-right:1vw;
+    padding-left:1vw;
+    padding-right:1vw;
+}
+#content h4{
+    padding-bottom: 1vh;
+    margin-bottom:0vh;
 }
 
-#content h4{
-	padding-bottom: 1vh;
-	margin-bottom:0vh;
-	}
+#content figure img{
+    padding-left:0vw;
+    padding-right:0vw;
+}
+#content ul{
+    padding-left:3vw;
+    padding-right:1vw;
+}
 
 .img{
-	padding-left:1vw;
-	padding-right:1vw;
+    padding-left:1vw;
+    padding-right:1vw;
 }
 .img_stichting{
     display: block;
     height: auto;
     max-width: 70%;
     padding-left:1vw;
-    padding-right:1vw;
-    
-}
-#content figure img{
-	padding-left:0vw;
-	padding-right:0vw;
-}
-#content ul{
-	padding-left:3vw;
-	padding-right:1vw;
+    padding-right:1vw;    
 }
 
 .omloop_tekst{
@@ -196,148 +187,152 @@ address{
     padding-right:1vw;
 }
 
+/*fotos*/
+.landscape {
+    display: block;
+    height: auto;
+    max-width: 70%;
+    margin: auto;
+    padding-right: 1.5vw;
+}
+
 /* film */
 #film p{
-	margin-top: 0vh;
-	}
+    margin-top: 0vh;
+}
 /* voorstellen */
 figure{
     padding-left: 1vw;
     margin-bottom: 5vw;
 }
 
-
 .commissie{
-	padding-right:1vw;
-	display:inline-block;
-	bottom:0;
+    padding-right:1vw;
+    display:inline-block;
+    bottom:0;
 }
 /*boeken*/
 .boek_wrapper{
-	height:25vh;
-	padding-bottom:1vh;
-	}
+    height:25vh;
+    padding-bottom:1vh;
+}
 #lange_tekst_1{
-	overflow:scroll;}
+    overflow:scroll;}
 #content .boeken img{
-	float:left;
-        
+    float:left;        
 }
 .img_boeken{
     box-shadow: 10px 10px 5px #aaaaaa;
-    margin: 1vh 1.5vw 1vh 1vw;
-    
+    margin: 1vh 1.5vw 1vh 1vw;   
 }
 
 #table_wanneer{
-	width:40vw;
+    width:40vw;
 }
 
 #table_activiteiten{
-	width:40vw;
-	}
+    width:40vw;
+}
 
 /*kalender*/
 #kalender_wrapper{
-	padding-left:0;
-	padding-right:0;
-        width: 96%;
-	} /*wordt in kalprogr.js aan gemaakt*/
+    padding-left:0;
+    padding-right:0;
+    width: 96%;
+} /*wordt in kalprogr.js aan gemaakt*/
 .white-space{
- 	white-space:normal;
-	font-size: 120%;
-	padding:0;
-	margin:0;
-	}
+    white-space:normal;
+    font-size: 120%;
+    padding:0;
+    margin:0;
+}
+
 /* rechter kant */
 #sidebar{
-	float: left;
-	//width: 20vw;
-	height: 80vh;
+    float: left;
+    //width: 20vw;
+    height: 80vh;
 }
 
 #kalender{
-	border-style: solid;
-	border-top-width:0.5vh;
-	border-bottom-width:0.5vh;
-	border-left-width:0.375vw;
-	border-right-width:0vw;
-	border-color: #000000;
-	border-top: none;
-	padding-left: 1vw;
-	padding-right: 1vw;
-	padding-top: 1vh;
-	padding-bottom: 1vh;
-	height: 24vh;
-	background-image: url(url);
+    border-style: solid;
+    border-top-width:0.5vh;
+    border-bottom-width:0.5vh;
+    border-left-width:0.375vw;
+    border-right-width:0vw;
+    border-color: #000000;
+    border-top: none;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    height: 24vh;
+    background-image: url(url);
 }
-
 #kalender a{
-	text-decoration: none;
-	font-weight: bold;
-	font-size: 2.5vh;
-	color: #000000;        
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2.5vh;
+    color: #000000;        
 }
 #kalender a img{
-	width:15vw;
-	height:17vh;
+    width:15vw;
+    height:17vh;
 }
 #link_kalender{
     //padding-right: 0.5vw;
 }
 
 #spreuk{
-	border-style: solid;
-	border-top-width:0.5vh;
-	border-bottom-width:0.5vh;
-	border-left-width:0.375vw;
-	border-right-width:0vw;
-	border-color: #000000;
-	border-top: none;
-	padding-left: 1vw;
-	padding-right: 1vw;
-	padding-top: 1vh;
-	padding-bottom: 1vh;
-	height: 20vh;
-	background-clip: border-box;
-	/* [disabled]background-origin: padding-box; */
-	background-size: cover;
+    border-style: solid;
+    border-top-width:0.5vh;
+    border-bottom-width:0.5vh;
+    border-left-width:0.375vw;
+    border-right-width:0vw;
+    border-color: #000000;
+    border-top: none;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    height: 20vh;
+    background-clip: border-box;
+    /* [disabled]background-origin: padding-box; */
+    background-size: cover;
 }
 
 #opmerking{
-	border-style: solid;
-	border-top-width: 0.5vh;
-	border-bottom-width: 0.5vh;
-	border-left-width: 0.375vw;
-	border-right-width: 0vw;
-	border-color: #000000;
-	border-top: none;
-	padding-left: 1vw;
-	padding-right: 1vw;
-	padding-top: 1vh;
-	padding-bottom: 1vh;
-	height: 24vh;
-	text-align: left;
-	font-size: 2vh;
-	list-style-type: none;
+    border-style: solid;
+    border-top-width: 0.5vh;
+    border-bottom-width: 0.5vh;
+    border-left-width: 0.375vw;
+    border-right-width: 0vw;
+    border-color: #000000;
+    border-top: none;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    height: 24vh;
+    text-align: left;
+    font-size: 2vh;
+    list-style-type: none;
 }
-
 #opmerking li{
-	list-style-type: none;
-	}
+    list-style-type: none;
+}
 
 /* footer */ 
 #footer{
-	position:absolute;
-	float:left;
-	width: 100%;
-	height: 8vh;
-	bottom:0%;
-	background-image: url(../images/footer.jpg);
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
+    position:absolute;
+    float:left;
+    width: 100%;
+    height: 8vh;
+    bottom:0%;
+    background-image: url(../images/footer.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
-
 
 @media screen and (max-width:767px) {
     #content{
@@ -362,15 +357,10 @@ figure{
     }
     
 }
-.landscape {
-    display: block;
-    height: auto;
-    max-width: 70%;
-    margin: auto;
-    padding-right: 1.5vw;
-}
 
-/*bootstrap aanpassingen */
+
+
+/*deel bootstrap aanpassingen, sommige aanpassingen zitten ook in bootstrap zelf met comment */
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     max-width: 100%;
     margin: auto;
