@@ -241,8 +241,8 @@ figure{
 #kalender_wrapper{
 	padding-left:0;
 	padding-right:0;
-	}
-
+        width: 96%;
+	} /*wordt in kalprogr.js aan gemaakt*/
 .white-space{
  	white-space:normal;
 	font-size: 120%;

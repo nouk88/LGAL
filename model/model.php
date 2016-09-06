@@ -160,15 +160,18 @@ function getFotoCategorieByDatumLimit($limit)
 function getKalenderInhoud()
 {
     $datums=getDatums();
+    echo '<script type="text/javascript">';
     foreach($datums as $datum)
     {
         $date= getDateExtract($datum["id"]);
         $maand= $date["maand"];        
         $dag= $date["dag"]; 
         $jaar= $date["jaar"];
+        
 
-      echo'jsGebeurtenis('.$maand.','.$dag.','.$jaar.','.$datum["naam_dag"].','.'<p class="white-space">'.$datum["tijd"].' '.$datum["naam"].'</p>'.','.$datum["text_kleur"].','.$datum["achtergrond_kleur"].');';
+      echo'jsGebeurtenis('.$maand.','.$dag.','.$jaar.','.$datum["naam_dag"].','.'"<p class=\'white-space\'>'.$datum["tijd"].' '.$datum["naam"].'</p>"'.','.$datum["text_kleur"].',"'.$datum["achtergrond_kleur"].'"); ';
     }
+    echo '</script>';
 }
 //==============================================================================
 //==============================================================================
