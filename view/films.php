@@ -12,7 +12,7 @@ function showfilms()
                     <h4>Monique Post_Regie over eigen leven </h4>
                         <p>Monique Post kreeg enkele jaren geleden tijdens haar studie de diagnose autisme. Mede dankzij MEE heeft zij de regie over haar leven weer helemaal in eigen hand. En hoe! In haar dagelijks leven als kunstenaar en spreker weet ze juist de kracht van autisme ten volste te benutten. <a href="https://www.youtube.com/watch?v=fOPomuMZ-XM" target="_blank">Klik hier om te bekijken</a></p>
                     <h4>WAT IS AUTISME (3 filmpjes)</h4>
-                        <p>Autisme TV legt in 3 korte filmpjes de theory of mind, centrale coherentie en de executieve functies uit. <a href="https://www.youtube.com/watch?v=tkLRR2waiRw&list=PLJDhdueJLVJWL0BOGAAe9DuIi23E8iAiK">Klik hier om te bekijken</a></p>
+                        <p>Autisme TV legt in 3 korte filmpjes de theory of mind, centrale coherentie en de executieve functies uit. <a href="https://www.youtube.com/watch?v=tkLRR2waiRw&list=PLJDhdueJLVJWL0BOGAAe9DuIi23E8iAiK" target="_blank>Klik hier om te bekijken</a></p>
                     <h4>WAT IS AUTISME (animatie)  </h4>
                         <p> Korte animatie van de Vereniging voor Autisme (NVA). Wat zijn de belangrijkste kenmerken van Autisme? Welke vormen zijn er? Tips en adviezen over hoe je kunt omgaan met mensen. <a href="https://www.youtube.com/watch?v=3aStVzuksGg" target="_blank">Klik hier om te bekijken</a></p>
                     <h4>Aan de slag met autisme</h4>
@@ -28,13 +28,13 @@ function showfilms()
 
                 <h3>Overige films</h3>
                     <h4>Het beste voor Kees</h4>
-                        <p>De 44-jarige autist Kees woont nog bij zijn ouders. Hoe lang houden de bejaarde ouders de 24-uurs zorg vol en wat gebeurt er met Kees als zij niet meer voor hem kunnen zorgen? <a href="http://www.documentairenet.nl/review/het-beste-voor-kees/">Klik hier om te bekijken</a></p>
+                        <p>De 44-jarige autist Kees woont nog bij zijn ouders. Hoe lang houden de bejaarde ouders de 24-uurs zorg vol en wat gebeurt er met Kees als zij niet meer voor hem kunnen zorgen? <a href="http://www.documentairenet.nl/review/het-beste-voor-kees/" target="_blank">Klik hier om te bekijken</a></p>
                     <h4>De Regels van Matthijs</h4>
-                        <p>Matthijs is autistisch. Als de woningbouwvereniging hem uit zijn woning dreigt te zetten stort zijn wereld in. <a href="http://www.documentairenet.nl/review/de-regels-van-matthijs/">Klik hier om te bekijken</a></p>
+                        <p>Matthijs is autistisch. Als de woningbouwvereniging hem uit zijn woning dreigt te zetten stort zijn wereld in. <a href="http://www.documentairenet.nl/review/de-regels-van-matthijs/" target="_blank">Klik hier om te bekijken</a></p>
                     <h4>Mozart and the Whale </h4>
-                        <p>De film vertelt het verhaal van twee personen met het Syndroom van Asperger, een vorm van autisme. Donald (Josh Hartnett) runt een kleine zelfhulpgroep voor mensen die meer hinder ondervinden van hun syndroom dan hij zelf. Isabelle wordt door haar therapeut ook in de groep geplaatst. Het verhaal vertelt de waargebeurde relatie tussen Jerry Newport en Mary Meinel. <a href="https://www.youtube.com/watch?v=bUYDqJyhXoU">Klik hier om de trailer te bekijken</a></p>
+                        <p>De film vertelt het verhaal van twee personen met het Syndroom van Asperger, een vorm van autisme. Donald (Josh Hartnett) runt een kleine zelfhulpgroep voor mensen die meer hinder ondervinden van hun syndroom dan hij zelf. Isabelle wordt door haar therapeut ook in de groep geplaatst. Het verhaal vertelt de waargebeurde relatie tussen Jerry Newport en Mary Meinel. <a href="https://www.youtube.com/watch?v=bUYDqJyhXoU" target="_blank">Klik hier om de trailer te bekijken</a></p>
                     <h4>Adam</h4>
-                        <p>Adam gaat over een jongeman, Adam, met het Asperger Syndroom, die na de dood van zijn vader in hun appartement is blijven wonen. Hij is gefascineerd door onderwerpen zoals science fiction en ruimtereizen. Wanneer Beth in het appartementsgebouw komt wonen groeit er een relatie tussen de twee. <a href="https://www.youtube.com/watch?v=wnoNQa_qUm4">Klik hier om de trailer te bekijken</a></p>
+                        <p>Adam gaat over een jongeman, Adam, met het Asperger Syndroom, die na de dood van zijn vader in hun appartement is blijven wonen. Hij is gefascineerd door onderwerpen zoals science fiction en ruimtereizen. Wanneer Beth in het appartementsgebouw komt wonen groeit er een relatie tussen de twee. <a href="https://www.youtube.com/watch?v=wnoNQa_qUm4" target="_blank">Klik hier om de trailer te bekijken</a></p>
                         <p>Heb je een tip over een goede film stuur dan een e-mail naar:<br> <a href="mailto:lotgenotengroep-autisme@hotmail.com">lotgenotengroep-autisme@hotmail.com</a></p>
         </div><!-- eind film -->
     ';

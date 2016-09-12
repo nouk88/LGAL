@@ -15,7 +15,7 @@ function showHeader($title)
             <meta name="description" content="Lotgenotengroep Autisme Limburg is een groep voor autisten en mensen met autisme in de vorm van asperger, pdd-nos of klassiek autisme in de buurt van Limburg, Parkstad, Brunssum.">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-            <title>'.$title.'</title>
+            <title>'.ucfirst($title).'</title>
             <!--[if lt IE 9]>
             <script src="//html5shiv.googlecode.com/svn/trunk/html5.js></script>
             <![endif]-->
