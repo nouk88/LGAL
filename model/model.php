@@ -151,7 +151,7 @@ function getFotoCategorieByDatumLimit($limit)
             FROM
             foto_categorie
             ORDER BY
-            datum ASC
+            datum DESC
             LIMIT "
             .$limit;
     return getArrays($query);

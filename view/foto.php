@@ -4,7 +4,7 @@ function showFoto()
 {
     echo '<h2>Foto\'s</h2>';
 	
-        $categorieen=getFotoCategorieByDatumLimit(5);
+        $categorieen=getFotoCategorieByDatumLimit(12);
         foreach($categorieen as $categorie)
         {
             echo' <h3>'.$categorie["naam"].'<h3>
