@@ -24,14 +24,14 @@ function showFoto()
 			{
                             if ($key==0)
                             {
-                                echo '<div class="item active '.$foto["type_foto"].'">
-                                <img src="' .$foto["link"]. '" alt="' .$foto["link"]. '"  >
+                                echo '<div class="item active">
+                                <img id="'.$foto["type_foto"].'" src="' .$foto["link"]. '" alt="' .$foto["link"]. '"  >
                                     </div>';
                             }
                             else
                             {
-                            echo '<div class="item '.$foto["type_foto"].'">
-                                <img src="' .$foto["link"]. '" alt="' .$foto["link"]. '" >
+                            echo '<div class="item">
+                                <img id="'.$foto["type_foto"].'" src="' .$foto["link"]. '" alt="' .$foto["link"]. '" >
                                 </div>';		
                             }	
 			}
