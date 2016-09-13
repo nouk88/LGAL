@@ -7,11 +7,11 @@ if(IS_LOCAL)
 }
  else 
 {
-    define("SERVERPATH", 'C:\xampp\htdocs\lgal\LGAL\/');
+    define("SERVERPATH", '/home/lgal260515/domains/lgal.nl/public_html/');
     define("CONFIGPATH", SERVERPATH.'config/remote_');   
 }
 //==============================================================================
-include CONFIGPATH.'settings.php';
+include CONFIGPATH.'remote_settings.php';
 include MODELPATH.'model.php';
 include CONTROLLERPATH.'controller.php';
 include CONTROLLERPATH.'utils.php';

@@ -19,7 +19,7 @@ define("LOGPATH", SERVERPATH.'log/');
 //define("CONFIGPATH", SERVERPATH.'config/');
 //==============================================================================
 define("HOST", "localhost");
-define("USER", "root");
-define("PASSWD", "");
-define("DBNAME","lgal");
+define("USER", "lgal260515_25f20");
+define("PASSWD", "5V0h376o");
+define("DBNAME","lgal260515_25f16");
 //==============================================================================
