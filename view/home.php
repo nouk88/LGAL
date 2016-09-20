@@ -9,9 +9,9 @@
 function showHome()
 {
     echo'<h2>Home</h2>
-            <p> Voor mensen met autisme is het vaak moeilijker om met andere mensen contact te leggen en/of te onderhouden. Wij bieden de mogelijkheid om in een ontspannen sfeer nieuwe, gelijkgestemde mensen te leren kennen. Deelname aan onze Inloopavonden en Activiteiten is altijd vrijblijvend. </p>
-            <p>Tijdens de Lotgenotenbijeenkomsten zijn ook ouders, vriend of vriendin, partner en/of begeleider van Lotgenoten welkom.</p>
-            <p><b> Doelstellingen van de Lotgenotengroep:</b></p>
+            <p> Voor mensen met autisme is het vaak moeilijker om met andere mensen contact te leggen en/of te onderhouden. Wij bieden de mogelijkheid om in een ontspannen sfeer nieuwe, gelijkgestemde mensen te leren kennen. Deelname aan onze inloopavonden en activiteiten is altijd vrijblijvend. </p>
+            <p>Tijdens de lotgenotenbijeenkomsten zijn ook ouders, vriend of vriendin, partner en/of begeleider van lotgenoten welkom.</p>
+            <p><b> Doelstellingen van de lotgenotengroep:</b></p>
             <ul>
                 <li>Contact maken met lotgenoten en familieleden </li>
                 <li>Steun vinden bij elkaar d.m.v. gesprekken </li>

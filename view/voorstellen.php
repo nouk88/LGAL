@@ -7,7 +7,7 @@ function showVoorstellen()
             <h3>De hele commissie </h3>
             	<figure><div class="commissie">
                     <img src="images/voorstellen/hele_commissie.jpg" width="244" height="244" alt="alle commissie leden" />
-                    <figcaption>Van links naar rechts: Ronald den Otter, Anouk Classens, John van Es, Monique Aspers-Counotte  en Leo Janssen</figcaption></div>
+                    <figcaption>Van links naar rechts: Ronald den Otter, Anouk Classens, John van Es, Monique Counotte  en Leo Janssen</figcaption></div>
                 </figure>
             
             <h3> Inloopavond commissie </h3>
@@ -53,7 +53,7 @@ function showVoorstellen()
                	</div>
             	<div class="commissie" >
             		<img src="images/voorstellen/monique.jpg" alt="" width="128" height="193" title="Monique <br/> Aspers-Counotte"/>
-            		<figcaption>Monique Aspers-Counotte</figcaption>
+            		<figcaption>Monique Counotte</figcaption>
               	</div>                    
                 </figure>
     ';

@@ -9,7 +9,7 @@ function showStichting()
             <p> Het bestuur bestaat uit:</p>
             <ul>
                 <li><strong>John van Es </strong>(voorzitter) </li>
-                <li><strong>Monique Aspers </strong> (secretaris) </li>
+                <li><strong>Monique Counotte </strong> (secretaris) </li>
                 <li><strong>Ronald den Otter </strong>(penningmeester) </li>
             </ul>
             <img class="img_stichting" src="images/bestuur/bestuur.jpg" alt="Bestuur" width="500" height="306" style="margin-bottom:2vh;">   
